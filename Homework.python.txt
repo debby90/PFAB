@@ -1,0 +1,21 @@
+first = "Debora"
+last = "Duarte"
+age = 24
+print first, last, age
+
+import math
+sideA = 12.55
+sideB = 17.85
+sideC = (sideA*sideA) + (sideB*sideB)
+sideC = math.sqrt(sideC)
+print sideC
+
+operand1 = 95
+operand2 = 64.5
+print operand1, "+",operand2,"=", operand1 + operand2
+print operand1, "-",operand2,"=", operand1 - operand2
+print operand1, "*",operand2,"=", operand1 * operand2
+print operand1, "/",operand2,"=", operand1 / operand2
+print operand1, "%",operand2,"=", operand1 % operand2
+
+#The program doesnt need to be rewritten in case the operands change, just change the variable.
